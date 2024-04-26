@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d1ec17df16.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="upper">
+                <h3 class="day">Tuesday</h3>
+                <h3 class="date">05 Jan 2024</h3>
+                <div class="location">
+                    <img src="icons/location2.gif" alt="location" class="location">
+                    <p class="address"> Mandsaur, Madhya Pradesh (M.P.)</p>
+                </div>
+            </div>
+    
+            <div class="lower">
+                <img src="icons/SUN.gif" alt="sun" class="sun">
+                <p class="temp">29&deg;C</p>
+                <p class="condition">Sunny</p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="details">
+                <!-- <span> DEV</span> -->
+                <p> <span class="details_left">PRECIPATION</span> <span class="details_right1">2 %</span> </p>
+                <p> <span class="details_left">HUMIDITY</span> <span class="details_right2">34 %</span> </p>
+                <p> <span class="details_left">WIND</span> <span class="details_right3">8 KM/H</span> </p>
+            </div>
+
+            <div class="week_container1">
+                <div class="week_details">
+                    <img src="icons/SUN.gif" alt="sun" class="icons">
+                    <p><span class="week_day">FRI</span> </p>
+                    <p> <span class="week_temp"> 29&deg;C </span> </p> 
+                </div>
+            </div>
+
+            <div class="week_container2 hover">
+                <div class="week_details">
+                    <img src="icons/sunny.gif" alt="sun" class="icons">
+                    <p><span class="week_day">SAT</span> </p>
+                    <p> <span class="week_temp"> 21&deg;C </span> </p> 
+                </div>
+            </div>
+
+            <div class="week_container3 hover">
+                <div class="week_details">
+                    <img src="icons/dazlling.gif" alt="sun" class="icons">
+                    <p><span class="week_day">SUN</span> </p>
+                    <p> <span class="week_temp"> 09&deg;C </span> </p> 
+                </div>
+            </div>
+
+            <div class="week_container4 hover">
+                <div class="week_details">
+                    <img src="icons/rain.gif" alt="sun" class="icons">
+                    <p><span class="week_day">MON</span> </p>
+                    <p> <span class="week_temp"> 19&deg;C </span> </p> 
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button class="button"> <img src="icons/search.gif" alt="search"><span>Change Location</span></button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
